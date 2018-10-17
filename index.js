@@ -43,8 +43,16 @@ const names = [
    // Level 3 ------------------------------
    console.log("")
    console.log("Level 3: Search")
-   let input=prompt()
-   let result3 = names.filter( name=> name.toLowerCase().includes(input)
-       )
-   document.write(`keyword : ${input} </br> result : ${result3}` )
+//    let input=prompt()
+//    let result3 = names.filter( name=> name.toLowerCase().includes(input)
+//        )
+//    document.write(`keyword : ${input} </br> result : ${result3}` )
    
+   // Level 4 ------------------------------
+   console.log("")
+   console.log("Level 4: Merge 2 arrays")
+   const names1 = ["Mr. Fahri", "Mr. Abdul", "Mrs. Josephhine"];
+    const names2 = ["Mr. Joseph", "Mr. Paul", "Mrs. Paula", "Mr. Hakim"];
+
+    let names3 = names1.concat(names2)
+        console.log(names3)
