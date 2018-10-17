@@ -19,3 +19,8 @@ const names = [
   // Level 1 ------------------------------
   console.log("")
   console.log("Level 1: Diplay All Mr.")
+
+  let result1 = names.filter(function(name){
+      return name.charAt(2) == "."
+  })
+  console.log(result1)
