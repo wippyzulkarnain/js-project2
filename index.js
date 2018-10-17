@@ -38,3 +38,13 @@ const names = [
     }
    })
    console.log(result2)
+
+
+   // Level 3 ------------------------------
+   console.log("")
+   console.log("Level 3: Search")
+   let input=prompt()
+   let result3 = names.filter( name=> name.toLowerCase().includes(input)
+       )
+   document.write(`keyword : ${input} </br> result : ${result3}` )
+   
