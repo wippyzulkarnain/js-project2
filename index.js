@@ -56,3 +56,25 @@ const names = [
 
     let names3 = names1.concat(names2)
         console.log(names3)
+        
+        // Level 5 ------------------------------
+    console.log("")
+    console.log("Level 5: remove other")
+        const names4 = [
+            "Mr. Fahri",
+            null,
+            undefined,
+            "Mr. Abdul",
+            24,
+            "Mrs. Josephhine",
+            "Mr. Joseph",
+            "Mr. Paul",
+            32,
+            "Mrs. Paula",
+            7,
+            22,
+            "Mr. Hakim"
+          ]
+          let result5 = names4.filter( name=> typeof name === 'string' )
+
+console.log(result5)
